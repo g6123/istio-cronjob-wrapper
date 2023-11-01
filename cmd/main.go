@@ -22,7 +22,7 @@ func main() {
 			},
 			&cli.StringFlag{
 				Name:  "ready",
-				Value: "http://localhost:15000/healthz/ready",
+				Value: "http://localhost:15020/healthz/ready",
 			},
 			&cli.IntFlag{
 				Name:  "connect-timeout",
@@ -34,7 +34,7 @@ func main() {
 			},
 			&cli.StringFlag{
 				Name:  "quit",
-				Value: "http://localhost:15020/quitquitquit",
+				Value: "http://localhost:15000/quitquitquit",
 			},
 		},
 		Action: func(ctx *cli.Context) error {
